@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Encriptador HM</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="styleEncriptador.css">
+        <link rel="shortcut icon" href="Images/Signature.png">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <img class="imagenLogo" src="Images/Logo.png" alt="Logo de Alura">
+            <img class="rectangulo" src="Images/Rectangle.png">
+        </header>        
+
+        <main>
+            <p class="textoEncriptar" id="textoUsuarioEncriptado"></p>
+            <div id="dentroRectangulo">    
+                <img class="muñeco" src="Images/Muñeco.png" alt="No se han encontrado mensajes">
+                <p class="noHayMensaje"><strong>Ningún mensaje fue encontrado</strong></p>
+                <p class="mensajeDeIngresar">Ingresa el texto que deseas encriptar o desencriptar</p>
+            </div>
+                
+            <button class="botonCopiar" id="botonCopy" onclick="copiarTexto()">Copiar</button>
+            
+            <div>
+                <textarea class="textoUsuario" id="ingresarTexto" placeholder="Ingrese el texto aquí"></textarea>
+                <p class="mensajeInformativo" id="mensajeInfo">&#128712;Solo letras minúsculas, sin números ni caracteres especiales</p>
+            </div>
+            <div class="botones">
+                <button class="botonEncriptador" onclick="encriptar()">Encriptar</button>
+                <button class="botonDesencriptador" onclick="desencriptar()">Desencriptar</button>
+            </div>
+        </main>
+        
+        <footer>
+            <p class="piePagina">Creado por Hazel Morera - 2024</p>
+        </footer>
+        
+        <script src="appEncriptador.js"></script>
+    </body>
+</html>

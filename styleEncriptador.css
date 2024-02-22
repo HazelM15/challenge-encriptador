@@ -1,0 +1,240 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #f3f5fc;
+    ;
+}
+
+header{
+    margin: 40px;
+}
+
+.rectangulo{
+    width: 400px;
+    height: 944px;
+    margin: 40px 0 0 1000px;
+    position: absolute;
+}
+
+.textoEncriptar{
+    margin: 0 0 0 1188px;
+    position: absolute;
+    width: 336px;
+    height: 781px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: inherit;
+    line-height: normal;
+    letter-spacing: 0em;
+    text-align: left;
+    border: none;
+}
+
+.muñeco{
+    width: 336px;
+    height: 304px;
+    margin: 230px 1196px;
+    position: absolute;
+}
+
+.noHayMensaje{
+    margin: 550px 1196px;
+    position: absolute;
+    width: 336px;
+    height: 58px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.mensajeDeIngresar{
+    margin: 625px 1196px;
+    position: absolute;
+    width: 336px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.textoUsuario{
+    width: 800px;
+    height: 500px;
+    margin: 18px 240px;
+    border: 0;
+    color: #052051;
+    background: #f3f5fc;
+    line-height: 48px;
+    font-family: inherit;
+    font-size: 23px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    resize: none;
+}
+
+.botonCopiar{
+    width: 316px;
+    height: hug(18px);
+    font-size: 12px;
+    font-family: inherit;
+    border-radius: 24px;
+    padding: 12px;
+    cursor: pointer;
+    margin: 790px 1204px;
+    position: absolute;
+    background: white;
+    color: #052051;
+    border-color: #052051;
+    border-style: solid;
+    justify-content: center;
+}
+
+.mensajeInformativo{
+    margin: 180px 240px 4px;
+}
+
+.botonEncriptador{
+    width: 316px;
+    height: hug(18px);
+    font-size: 12px;
+    font-family: inherit;
+    border-radius: 24px;
+    padding: 12px;
+    cursor: pointer;
+    margin: 8px 4px 8px 240px;
+    background: #052051;
+    color: #d8dfe8;
+    border: hidden;
+    justify-content: center;
+}
+
+.botonDesencriptador{
+    width: 316px;
+    height: hug(18px);
+    font-size: 12px;
+    font-family: inherit;
+    border-radius: 24px;
+    padding: 12px;
+    cursor: pointer;
+    margin: 4px 8px 8px 4px;
+    background: #d8dfe8;
+    color: #052051;
+    border-color: #052051;
+    border-style: solid;
+    justify-content: center;
+}
+
+footer{
+    margin-top: 100px;
+    text-align: center;
+    padding: 1px;
+    color: #052051;
+    background: #f3f5fc;
+}
+
+/*Configuracion para celular*/
+@media only screen and (min-width: 200px) and (max-width:600px){
+
+    .textoUsuario, .mensajeInformativo{
+        margin: 40px 0 0 20px;
+        width: 90%;
+        line-height: normal;
+    }
+
+    .botonEncriptador, .botonDesencriptador{
+        margin: 8px 4px 8px 48px;
+    }
+
+    .textoEncriptar{
+        text-align: justify;
+        margin: 750px 12px;
+        height: fit-content;
+        line-height: normal;
+        width: 350px;
+    }
+
+    .noHayMensaje{
+        text-align: center;
+        margin: 880px 35px;
+    }
+
+    .mensajeDeIngresar{
+        margin: 950px 35px;
+        text-align: center;
+    }
+
+    .botonCopiar{
+        margin: 1380px 48px;
+    }
+
+    .rectangulo{
+        top: 0;
+        display: none;
+        visibility: hidden;
+    }
+
+    .muñeco{
+        top: 0;
+        display: none;
+        visibility: hidden;
+    }
+
+    footer{
+        margin-top: 750px;
+    }
+}
+
+/* Configuracion para tablet */
+@media only screen and (min-width: 601px) and (max-width: 1024px){
+    
+    .textoUsuario, .mensajeInformativo{
+        margin: 40px 0 0 40px;
+        width: 90%;
+        line-height: normal;
+    }
+
+    .botonEncriptador, .botonDesencriptador{
+        margin: 8px 4px 8px 40px;
+    }
+
+    .noHayMensaje{
+        text-align: center;
+        margin: 880px 216px;
+    }
+    .mensajeDeIngresar{
+        margin: 950px 200px;
+        text-align: center;
+    }
+
+    .textoEncriptar{
+        text-align: justify;
+        margin: 750px 34px;
+        height: fit-content;
+        line-height: normal;
+        width: 700px
+    }
+
+    .botonCopiar{
+        margin: 1065px 226px;
+    }
+
+    .rectangulo{
+        top: 0;
+        display: none;
+        visibility: hidden;
+    }
+
+    .muñeco{
+        top: 0;
+        display: none;
+        visibility: hidden;
+    }
+
+    footer{
+        margin-top: 500px;
+    }
+}
