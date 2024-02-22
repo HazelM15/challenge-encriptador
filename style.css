@@ -10,18 +10,18 @@ header{
 
 .rectangulo{
     width: 400px;
-    height: 944px;
-    margin: 40px 0 0 1000px;
+    height: 600px;
+    margin: 0 0 0 900px;
     position: absolute;
 }
 
 .textoEncriptar{
-    margin: 0 0 0 1188px;
+    margin: -40px 0 0 1090px;
     position: absolute;
     width: 336px;
     height: 781px;
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 15px;
+    font-weight: 200;
     font-family: inherit;
     line-height: normal;
     letter-spacing: 0em;
@@ -30,61 +30,60 @@ header{
 }
 
 .muñeco{
-    width: 336px;
-    height: 304px;
-    margin: 230px 1196px;
+    width: 286px;
+    height: 254px;
+    margin: 20px 1120px;
     position: absolute;
 }
 
 .noHayMensaje{
-    margin: 550px 1196px;
+    margin: 300px 1090px;
     position: absolute;
     width: 336px;
     height: 58px;
-    font-size: 24px;
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 350;
     line-height: 29px;
     letter-spacing: 0em;
     text-align: center;
 }
 
 .mensajeDeIngresar{
-    margin: 625px 1196px;
+    margin: 350px 1090px;
     position: absolute;
     width: 336px;
     height: 48px;
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 12px;
+    font-weight: 200;
     line-height: 24px;
     letter-spacing: 0em;
     text-align: center;
 }
 
 .textoUsuario{
-    width: 800px;
-    height: 500px;
-    margin: 18px 240px;
+    width: 600px;
+    height: 300px;
+    margin: 5px 240px;
     border: 0;
     color: #052051;
     background: #f3f5fc;
-    line-height: 48px;
+    line-height: 20px;
     font-family: inherit;
-    font-size: 23px;
-    font-weight: 400;
+    font-size: 15px;
     letter-spacing: 0em;
     text-align: left;
     resize: none;
 }
 
 .botonCopiar{
-    width: 316px;
-    height: hug(18px);
+    width: 310px;
+    height: hug(10px);
     font-size: 12px;
     font-family: inherit;
     border-radius: 24px;
     padding: 12px;
     cursor: pointer;
-    margin: 790px 1204px;
+    margin: 400px 1100px;
     position: absolute;
     background: white;
     color: #052051;
@@ -94,12 +93,13 @@ header{
 }
 
 .mensajeInformativo{
-    margin: 180px 240px 4px;
+    margin: 100px 240px 4px;
+    font-size: 10px;
 }
 
 .botonEncriptador{
-    width: 316px;
-    height: hug(18px);
+    width: 310px;
+    height: hug(10px);
     font-size: 12px;
     font-family: inherit;
     border-radius: 24px;
@@ -113,8 +113,8 @@ header{
 }
 
 .botonDesencriptador{
-    width: 316px;
-    height: hug(18px);
+    width: 310px;
+    height: hug(10px);
     font-size: 12px;
     font-family: inherit;
     border-radius: 24px;
@@ -129,7 +129,7 @@ header{
 }
 
 footer{
-    margin-top: 100px;
+    margin-top: 30px;
     text-align: center;
     padding: 1px;
     color: #052051;
